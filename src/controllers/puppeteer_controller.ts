@@ -15,7 +15,7 @@ export class PuppeteerController {
       maxTabs: config.maxTabs || 10,
       browserTimeout: config.browserTimeout || 30000,
       requestTimeout: config.requestTimeout || 10000,
-      headless: config.headless || false,
+      headless: config.headless || true,
       userAgent: config.userAgent || 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
       viewport: config.viewport || { width: 1920, height: 1080 }
     };

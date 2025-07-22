@@ -3,7 +3,7 @@ import { getPuppeteerController } from '../controllers/puppeteer_controller';
 import { CrawlOptions, CrawlResult, LLMTextData, ImageData, LinkData } from '../types';
 
 export class WebCrawl {
-  private controller = getPuppeteerController();
+  private controller = getPuppeteerController({headless:true});
 
   /**
    * Crawl a specific URL with the specified format
