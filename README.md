@@ -2,6 +2,7 @@
 
 Spider-Crawl is a web crawling and spidering tool built with TypeScript. It leverages Puppeteer for web scraping and provides APIs for crawling specific URLs, entire websites, and search engine results.
 
+> **Note**: Use proxy to avoid getting blocked by search engines especially the mighty google.
 ## Features
 
 - **Web Crawling**: Extract text, HTML, screenshots, links, and images from web pages.
